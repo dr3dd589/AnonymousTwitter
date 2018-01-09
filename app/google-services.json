@@ -1,0 +1,63 @@
+{
+  "project_info": {
+    "project_number": "349764193398",
+    "firebase_url": "https://yolo-115a3.firebaseio.com",
+    "project_id": "yolo-115a3",
+    "storage_bucket": "yolo-115a3.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:349764193398:android:f5d0089d00392962",
+        "android_client_info": {
+          "package_name": "com.iitr.saurabh.anonymoustwitter"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "349764193398-ir31ciifg90qle7i34mevolf5sknden9.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.iitr.saurabh.anonymoustwitter",
+            "certificate_hash": "370b34015e68bc909bee06fadcd1789374e969b7"
+          }
+        },
+        {
+          "client_id": "349764193398-pqlaenjiiqfci0qocub046s2ssr46d08.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.iitr.saurabh.anonymoustwitter",
+            "certificate_hash": "29ae701994cb4b4132ca825b42a18edea80a5785"
+          }
+        },
+        {
+          "client_id": "349764193398-9md4s0dkideqj9onl7aql81bnst5v297.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAPeMyHMe-zLmaj1t_6oQdBJCdt5S8EMHY"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "349764193398-9md4s0dkideqj9onl7aql81bnst5v297.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

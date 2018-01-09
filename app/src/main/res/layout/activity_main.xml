@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="3dp"
+    android:background="@drawable/main_back"
+    android:id="@+id/main_activity_layout"
+    tools:context="com.iitr.saurabh.anonymoustwitter.MainActivity">
+
+    <include layout="@layout/app_bar_layout"
+        android:id="@+id/main_page_toolbar" />
+
+    <android.support.v7.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/Massage_list"
+        android:layout_marginTop="56dp"
+        android:layout_marginBottom="50dp">
+    </android.support.v7.widget.RecyclerView>
+
+    <ImageButton
+        android:layout_width="50dp"
+        android:layout_height="40dp"
+        android:backgroundTint="#fff"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentBottom="true"
+        android:id="@+id/add_photos"
+        android:background="#0000"
+        android:src="@mipmap/ic_add_to_photos_black_24dp"
+        android:text="Send" />
+
+        <EditText
+            android:id="@+id/send_Massage"
+            android:layout_alignParentBottom="true"
+            android:layout_centerInParent="true"
+            android:layout_width="280dp"
+            android:layout_height="wrap_content"
+            android:hint="Post tweet..." />
+
+    <ImageButton
+        android:layout_width="50dp"
+        android:id="@+id/send_text"
+        android:backgroundTint="#fff"
+        android:layout_height="40dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:src="@mipmap/ic_send_black_24dp"
+        android:background="#0000"
+        />
+
+
+</RelativeLayout>
